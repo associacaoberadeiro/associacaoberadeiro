@@ -2,29 +2,51 @@
     display: flex;
 }
 
-.facebook{
-    margin: 5%;
-}
-
 .insta{
     margin: 5%;
+    width: 33px;
+    height: 33px;
+    left: 1129px;
+    top: 70px;
 }
 
-.YouTube{
+.facebook{
     margin: 5%;
+    width: 33px;
+    height: 33px;
+    left: 1191px;
+    top: 70px;
 }
 
 .container-apresentacao{
     margin-bottom: 50%;
-    text-align: center;
+    text-align: start;
 }
 
-.container-QuemSomos{
+/*.container-Nos{
     background-color: darkgrey;
     margin: 30%;
     border-radius: 25px;
-}
+}*/
 
 .logo{
-    width: 100px;
+    width: 174px;
+    height: 56px;
+    left: 55px;
+    top: 50px;
+}
+
+#Nos{
+    width: 1280px;
+    height: 533px;
+    left: 0px;
+    top: 157px;
+    background-image: url("src/imagens/Pagina/TOP_1.png");
+    /*background: linear-gradient(90deg, rgba(0, 0, 0, 0.15) 39.14%, rgba(141, 141, 141, 0) 100%);*/
+    background-blend-mode: overlay;
+    
+}
+
+#impacto{
+
 }
