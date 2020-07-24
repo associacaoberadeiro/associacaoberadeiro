@@ -169,6 +169,12 @@ body{
     width: 480px;
 }
 
+.img-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
 
 
 
