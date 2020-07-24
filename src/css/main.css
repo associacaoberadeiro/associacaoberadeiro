@@ -113,11 +113,9 @@ body{
     font-size: 30px;
 }
 
-/*.container-Nos{
-    background-color: darkgrey;
-    margin: 30%;
-    border-radius: 25px;
-}*/
+.container-nos{
+    display: flex;
+}
 
 .logo{
     width: 174px;
@@ -164,16 +162,57 @@ body{
     justify-content: center;
 }
 
-#img-nos-desktop{
-    height: 500px;
-    width: 480px;
-}
+
 
 .img-2{
     display: flex;
     justify-content: center;
     margin-top: 2%;
 }
+
+.text-tit-acao{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 37px;
+    color: #D56E29;
+}
+
+
+.text-corpo-acao{
+    margin-top: 2%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #3C3C3B;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.container-acao{
+    display: flex;
+    text-align: center;
+    
+}
+
+#img-nos-mobile-2{
+    display: none;
+}
+
+#missao{
+    margin-top: 3%;
+}
+
+#visao{
+    margin-top: 3%;
+}
+
+#valores{
+    margin-top: 3%;
+}
+
 
 
 
@@ -197,6 +236,35 @@ body{
         display: flex;
         justify-content: center;
         align-items: center
-    };
+    }
+
+    .container-nos{
+        display: block;
+    }
+
+    #img-nos-desktop-2{
+        display: none;
+    }
+
+    #img-nos-mobile-2{
+        display: block !important;
+    }
+
+    .container-acao{
+        display: block;
+        text-align: center;
+        margin-top: 2%;
+    }
+
+    .container-nosso-trabalho{
+        display: block !important;
+        
+    }
+
+    .col-md-4{
+        margin-bottom: 15%;
+    }
+
+
     
 }
