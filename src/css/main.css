@@ -228,6 +228,15 @@ body{
     width: 50%;
 }
 
+.container-integrante{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+
+}
+
 
 
 
@@ -242,10 +251,6 @@ body{
        display: none;
     }
 
-    #img-nos-desktop{
-        max-width: 240px;
-        
-    }
 
     .col-md-6{
         display: block;
@@ -307,6 +312,16 @@ body{
     
     #Proporcionamos{
         width: 100%;
+    }
+
+    #equipe{
+        display: block !important;
+    }
+
+    .img-1{
+        display: block !important;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 
