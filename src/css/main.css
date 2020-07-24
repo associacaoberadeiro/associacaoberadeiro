@@ -248,11 +248,12 @@ body{
 
     #img-nos-mobile-2{
         display: block !important;
+        text-align: center;
     }
 
     .container-acao{
         display: block;
-        text-align: center;
+        text-align: center !important;
         margin-top: 2%;
     }
 
@@ -263,6 +264,7 @@ body{
 
     .col-md-4{
         margin-bottom: 15%;
+        text-align: center !important;
     }
 
 
