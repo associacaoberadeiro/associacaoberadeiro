@@ -203,14 +203,29 @@ body{
 
 #missao{
     margin-top: 3%;
+    width: 50%;
 }
 
 #visao{
     margin-top: 3%;
+    width: 50%;
 }
 
 #valores{
     margin-top: 3%;
+    width: 50%;
+}
+
+#temas-abordados{
+    width: 50%;
+}
+
+#Realizamos{
+    width: 50%;
+}
+
+#Proporcionamos{
+    width: 50%;
 }
 
 
@@ -233,9 +248,9 @@ body{
     }
 
     .col-md-6{
-        display: flex;
-        justify-content: center;
-        align-items: center
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .container-nos{
@@ -265,6 +280,33 @@ body{
     .col-md-4{
         margin-bottom: 15%;
         text-align: center !important;
+    }
+
+    #missao{
+        margin-top: 3%;
+        width: 100%;
+    }
+    
+    #visao{
+        margin-top: 3%;
+        width: 100%;
+    }
+    
+    #valores{
+        margin-top: 3%;
+        width: 100%;
+    }
+
+    #temas-abordados{
+        width: 100%;
+    }
+    
+    #Realizamos{
+        width: 100%;
+    }
+    
+    #Proporcionamos{
+        width: 100%;
     }
 
 
