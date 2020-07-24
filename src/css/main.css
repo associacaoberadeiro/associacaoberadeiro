@@ -145,6 +145,7 @@ body{
     font-weight: normal;
     font-size: 18px;
     color: #3C3C3B;
+    margin-left: 3%;
 }
 
 .container-text-2{
@@ -154,12 +155,21 @@ body{
     font-weight: normal;
     font-size: 18px;
     color: #3C3C3B;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 .col-md-6{
     display: flex;
     justify-content: center;
 }
+
+#img-nos-desktop{
+    height: 500px;
+    width: 480px;
+}
+
+
 
 
 @media (max-width: 1000px) {
@@ -171,5 +181,16 @@ body{
     #img-boas-vindas-desktop{
        display: none;
     }
+
+    #img-nos-desktop{
+        max-width: 240px;
+        
+    }
+
+    .col-md-6{
+        display: flex;
+        justify-content: center;
+        align-items: center
+    };
     
 }
