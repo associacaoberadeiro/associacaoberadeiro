@@ -139,6 +139,29 @@ body{
     display: none;
 }
 
+.col-md-6-text-nos{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #3C3C3B;
+}
+
+.container-text-2{
+    margin-top: 2%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #3C3C3B;
+}
+
+.col-md-6{
+    display: flex;
+    justify-content: center;
+}
+
+
 @media (max-width: 1000px) {
 
     #img-boas-vindas-mobile{
@@ -148,4 +171,5 @@ body{
     #img-boas-vindas-desktop{
        display: none;
     }
+    
 }
