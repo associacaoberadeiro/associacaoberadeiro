@@ -377,32 +377,44 @@ body{
 
     #missao{
         margin-top: 3%;
-        width: 100%;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
     }
     
     #visao{
         margin-top: 3%;
-        width: 100%;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
     }
     
     #valores{
         margin-top: 3%;
-        width: 100%;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
     }
 
     #temas-abordados{
-        width: 100%;
-        margin: 10%;
+        margin-top: 3%;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
     }
     
     #Realizamos{
-        width: 100%;
-        margin: 10%;
+        margin-top: 3%;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
     }
     
     #Proporcionamos{
-        width: 100%;
-        margin: 10%;
+        margin-top: 3%;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
     }
 
     #equipe{
