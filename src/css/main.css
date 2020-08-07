@@ -304,13 +304,18 @@ body{
 }
 
 #imagem-equipe{
-    height: 150px;
+    height: 200px;
 }
 
 #imagem-parceiro{
     max-width: 150px;
     margin-left: 5%;
     margin-right: 5%;
+    background: #FAFAFA;
+/* Soft_shadow */
+
+box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+border-radius: 6px;
 }
 
 
@@ -434,6 +439,11 @@ body{
     #parceiro-ajuste{
         margin: 5%;
     }
+
+    
+#imagem-equipe{
+    height: 300px;
+}
 
    
 }
