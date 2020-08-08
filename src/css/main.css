@@ -39,6 +39,8 @@ body{
 .container-apresentacao{
     text-align: start;
     justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 #container-inicio{
@@ -196,13 +198,12 @@ body{
     font-weight: normal;
     font-size: 18px;
     color: #3C3C3B;
-    margin-left: 2%;
-    margin-right: 2%;
 }
 
 .container-item-objetivos{
     display: flex;
     margin-bottom: 3%;
+    margin-right: 3%;
 }
 
 .container-acao{
@@ -276,10 +277,10 @@ body{
     margin-right: auto;
     text-align: center;
     margin: 2%;
-    margin-bottom: 5%;
-    
-    
-
+    background: #FAFAFA;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    width: 100%;
 }
 
 .parceiro{
@@ -304,7 +305,7 @@ body{
 }
 
 #imagem-equipe{
-    height: 200px;
+    height: 230px;
 }
 
 #imagem-parceiro{
@@ -441,9 +442,15 @@ border-radius: 6px;
     }
 
     
-#imagem-equipe{
-    height: 300px;
-}
+    #imagem-equipe{
+        display: none;
+    }
+
+    #imagem-equipe-mobile{
+        display: inline !important;
+        height: 250px;
+        align-items: center
+    }
 
    
 }
