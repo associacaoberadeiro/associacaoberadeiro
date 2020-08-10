@@ -369,7 +369,8 @@ border-radius: 6px;
 
 #logo-rodape{
     display: block;
-    width: 50%
+    margin-right: 3%;
+    width: 50%;
 }
 
 #logo-rodape p{
@@ -384,18 +385,19 @@ border-radius: 6px;
 }
 
 .fale-conosco{
-    font-family: Montserrat;
+font-family: Montserrat;
     font-size: 20px;
     margin-top: 5%;
-    margin-left: 5%
-
+    margin-left: 2%;
+    width: 25%;
 }
 
 .menu-rodape{
     font-family: Montserrat;
     font-size: 20px;
     margin-top: 5%;
-    margin-left: 5%;
+    margin-left: 2%;
+    width: 25%;
 }
 
 .nav-link{
