@@ -125,11 +125,6 @@ body{
     top: 50px;
 }
 
-
-#impacto{
-
-}
-
 #img-boas-vindas-desktop{
     width: 100%;
 }
@@ -460,7 +455,6 @@ font-family: Montserrat;
 
     .container-nosso-trabalho{
         display: block !important;
-        
     }
 
     .col-md-4{
@@ -553,6 +547,13 @@ font-family: Montserrat;
     #cadastro-voluntarie-se{
     display: block;  
     width: 100%;
+    }
+    
+    #video-institucional {
+        width: 100vw;
+        height: auto;
+        margin-top: 20px;
+    }    
 }
 
     .footer{
@@ -569,6 +570,4 @@ font-family: Montserrat;
     #logo-rodape{
     display: block;
     width: 100%
-}
-   
 }
